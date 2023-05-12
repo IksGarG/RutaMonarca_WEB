@@ -1,0 +1,31 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Then add additional custom code here
+// Custom colors
+$primary: #1C1C1C;
+
+// Css Section
+
+body {
+    background-color: $primary;
+}
+
+path {
+    fill: #F17001;
+    stroke-width: 0px;
+    transition: fill 0.3s ease;
+}
+path:hover {
+    fill: #8A4001;
+}
+a {
+    outline: transparent;
+}
+.Algodoncillos {
+    cursor: pointer;
+}
